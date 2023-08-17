@@ -30,3 +30,5 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
 Specify the routes where you want to go after the sign in or sign up
+
+Using chadcn
