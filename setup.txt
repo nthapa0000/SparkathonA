@@ -1,0 +1,32 @@
+Name of the app will be WalmartUnity
+
+Downloading the initial setup
+npx create-next-app@latest ./ (./ is to setup in the current repository)
+(this is created by vercel) 
+
+npm install @clerk/nextjs @uploadthing/react mongoose svix uploadthing
+@clerk/nextjs: for authentication
+@uploadthing/react: it is react package used it to upload profile images
+svix : for webhooks
+
+inside the app folder our whole next js app will be.
+
+npm install tailwindcss-animate
+as it will show that we are misiing this package
+
+This is to setup the Github repository 
+Create a new repository then write the following code in the terminal 
+echo "# threads" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nthapa0000/Sparkathon.git
+git push -u origin main
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+Specify the routes where you want to go after the sign in or sign up
